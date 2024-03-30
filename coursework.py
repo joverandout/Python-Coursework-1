@@ -16,7 +16,7 @@ menu = {
 # This function takes a list of items and returns the total price of those items.
 # The list contains strings of the items the customer wants to order.
 
-def getTotalPrice(order: list) -> int:
+def getTotalPrice(order: list) -> float:
     # TODO
     pass
 
@@ -24,7 +24,7 @@ def getTotalPrice(order: list) -> int:
 # This function takes a list of items and returns a string of the order.
 # The list contains strings of the items the customer wants to order.
 
-def getOrderString(order: list) -> str:
+def getOrderString(order: list) -> float:
     # TODO
     pass
 
@@ -41,7 +41,7 @@ def checkDiscount(order: list) -> bool:
 # The discount applies if the order contains at least 3 items and at least one of them is a burger.
 # The discount is 10% off the total price.
 
-def getDiscountPrice(order: list) -> int:
+def getDiscountPrice(order: list) -> float:
     # TODO
     pass
 
